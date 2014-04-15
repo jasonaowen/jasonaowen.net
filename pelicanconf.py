@@ -6,7 +6,7 @@ AUTHOR = u'Jason Owen'
 SITENAME = u'Jason Owen'
 SITEURL = ''
 
-TIMEZONE = 'Pacific/Los Angeles'
+TIMEZONE = 'America/Los_Angeles'
 
 DEFAULT_LANG = u'en'
 
