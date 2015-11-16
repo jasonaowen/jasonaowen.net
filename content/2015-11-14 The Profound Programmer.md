@@ -5,8 +5,9 @@ Category: coding
 Summary: Index of posts. Contains profanity.
 
 There is a great series of developer reaction posts on [The Profound
-Programmer](http://theprofoundprogrammer.com/). It isn't being updated much
-anymore, but the upside to that is that makes it amenable to a complete list!
+Programmer](http://theprofoundprogrammer.com/). I have found myself searching
+for posts from it frequently, and to speed that up, here is a complete list.
+<!-- PELICAN_END_SUMMARY -->
 
 - [what the fuck kind of variable name is "data" / you should be
   incarcerated](http://theprofoundprogrammer.com/post/25728479232/)
