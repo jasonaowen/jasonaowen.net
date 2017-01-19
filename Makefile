@@ -15,7 +15,7 @@ FTP_TARGET_DIR=/
 SSH_HOST=jasonaowen.net
 SSH_PORT=22
 SSH_USER=owenja
-SSH_TARGET_DIR=/srv/www/htdocs
+SSH_TARGET_DIR=/srv/www/blog
 
 S3_BUCKET=my_s3_bucket
 
