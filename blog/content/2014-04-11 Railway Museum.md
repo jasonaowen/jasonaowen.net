@@ -16,7 +16,7 @@ refurbished remains of a streetcar that was once in service, and saw a 1:8
 scale model of a streetcar.
 
 ![A 1:8 scale model of a streetcar on display in the San Francisco Railway
-Museum](/static/images/streetcarmodel.jpg)
+Museum](/blog/images/streetcarmodel.jpg)
 
 I also really appreciated the t-shirt that read "[Information Gladly Given, But
 Safety Requires Avoiding Unnecessary
@@ -28,7 +28,7 @@ overcast, but the sun has been peeking out from time to time, and a group of
 people are playing with bubbles, which delighted the couple at the table next
 to mine.
 
-![People playing with bubbles](/static/images/bubbles.jpg)
+![People playing with bubbles](/blog/images/bubbles.jpg)
 
 Sitting in the sun next to the park, with the ferry building clock chiming the
 half hour, has been a fantastic setting for writing.

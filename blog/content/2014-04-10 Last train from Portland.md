@@ -11,13 +11,13 @@ wrote my stop on a piece of paper. There was no security, no scans, no
 questions about how much liquid I'm carrying; it was awesomely simple and
 painless.
 
-![Engine of Amtrak train](/static/images/engine.jpg)
+![Engine of Amtrak train](/blog/images/engine.jpg)
 
 The train was running about half an hour late, and boarding was as relaxed as
 checking in was. We all lined up, showed our little slips of paper, and were
 told what car to go to. Mine was the very last car.
 
-![I was on a coach car, the last car of the train](/static/images/coach.jpg)
+![I was on a coach car, the last car of the train](/blog/images/coach.jpg)
 
 The seats were spacious and comfortable, with plenty of space for even someone
 as long as I am to stretch out. The train was sparsely packed, and not only
