@@ -1,6 +1,6 @@
 Title: Benchmarking UUIDs
-Date: 2017-04-13 17:17
-Modified: 2017-04-13 19:20
+Date: 2017-04-13T17:17-04:00
+Modified: 2017-04-13T19:20-04:00
 Tags: coding, postgresql
 Category: postgresql
 
