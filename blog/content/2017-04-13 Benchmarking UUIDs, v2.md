@@ -1,15 +1,16 @@
 Title: Benchmarking UUIDs, v2
 Date: 2017-04-13 19:20
+Modified: 2017-04-14 10:15
 Tags: coding, postgresql
 Category: postgresql
 
 # Correction
 
 Shortly after I published [Benchmarking
-UUIDs](<{filename}/2017-04-13 Benchmarking UUIDs.md>), someone emailed me with
-a correction. It turns out the approach Jonathan and I used to time how long
-PostgreSQL takes to generate a million UUIDs is mostly timing how long it takes
-to generate a million queries:
+UUIDs](<{filename}/2017-04-13 Benchmarking UUIDs.md>), Per Wigren emailed me
+with a correction. It turns out the approach Jonathan and I used to time how
+long PostgreSQL takes to generate a million UUIDs is mostly timing how long it
+takes to generate a million queries:
 
 ```postgresql
 DO $$
@@ -50,16 +51,18 @@ FROM (
 ) AS x;
 ```
 
-On my machine, I see a big difference, more than 5x:
+On my machine, I see a big difference between the two functions, more than 5x:
 
-| uuid_generate_v4 | gen_random_uuid |
-| ---------------- | --------------- |
-| 6484.110 ms      | 1166.969 ms     |
-| 6451.433 ms      | 1169.010 ms     |
-| 6285.573 ms      | 1161.001 ms     |
+| uuid_generate_v4 (uuid-ossp) | gen_random_uuid (pgcrypto) | nodejs      |
+| ---------------------------- | -------------------------- | ------      |
+| 6484.110 ms                  | 1166.969 ms                | 2886.117 ms |
+| 6451.433 ms                  | 1169.010 ms                | 2822.078 ms |
+| 6285.573 ms                  | 1161.001 ms                | 2829.395 ms |
 
-Interestingly, on another machine, the two functions were approximately equally
-fast, with `uuid_generate_v4` slightly edging out `gen_random_uuid`.
+Interestingly, on Per Wigren's machine, running macOS Sierra with PostgreSQL
+9.6.2 installed from Homebrew, the two functions were approximately equally
+fast, with `uuid_generate_v4` slightly edging out `gen_random_uuid`. Both were
+faster than the nodejs version.
 
 # Conclusion
 
@@ -75,5 +78,8 @@ low. Better to focus your optimization efforts elsewhere!
 
 ---
 
-Many thanks to my anonymous contributor! I'll update this article to credit
-them if they like.
+*Many thanks to Per Wigren for the feedback!*
+
+2017-04-14: Updated to credit Per Wigren and clarify the table of new
+measurements by adding the extension to the title of the columns and including
+the nodejs measurements from the previous post.
