@@ -1,7 +1,12 @@
 Title: Benchmarking UUIDs
-Date: 2017-04-13
+Date: 2017-04-13 17:17
+Modified: 2017-04-13 19:20
 Tags: coding, postgresql
 Category: postgresql
+
+UPDATE: The test methodology is flawed! PostgreSQL can be faster than nodejs.
+See the [follow-up article](<{filename}/2017-04-13 Benchmarking UUIDs, v2.md>).
+---
 
 Jonathan New wrote an interesting article on [UUID creation in Postgres vs
 Node](http://blog.jonnew.com/posts/uuid-postgres-node). In it, he described the
