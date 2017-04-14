@@ -5,10 +5,11 @@ Category: postgresql
 
 # Correction
 
-Shortly after I published [Benchmarking UUIDs](<{filename}/2017-04-13
-Benchmarking UUIDs.md>), someone emailed me with a correction. It turns out the
-approach Jonathan and I used to time how long PostgreSQL takes to generate a
-million UUIDs is mostly timing how long it takes to generate a million queries:
+Shortly after I published [Benchmarking
+UUIDs](<{filename}/2017-04-13 Benchmarking UUIDs.md>), someone emailed me with
+a correction. It turns out the approach Jonathan and I used to time how long
+PostgreSQL takes to generate a million UUIDs is mostly timing how long it takes
+to generate a million queries:
 
 ```postgresql
 DO $$
