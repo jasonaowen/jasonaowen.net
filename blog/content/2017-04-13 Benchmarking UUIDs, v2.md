@@ -35,7 +35,7 @@ FROM (
 This results in a roughly order-of-magnitude difference in test times, just in
 overhead.
 
-When we take this insight and applying it to the two UUID generator functions,
+When we take this insight and apply it to the two UUID generator functions,
 we find that PostgreSQL is faster at this task than nodejs:
 
 ```postgresql
