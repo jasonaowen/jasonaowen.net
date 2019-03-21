@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="Ebene_1"
+   data-name="Ebene 1"
+   viewBox="0 0 118.64061 144.29762"
+   version="1.1"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   width="118.6406"
+   height="144.29762"
+   sodipodi:docname="gnupg.svg">
+  <metadata
+     id="metadata43">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>GnuPG finnished Logo</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1145"
+     id="namedview41"
+     showgrid="false"
+     inkscape:zoom="2"
+     inkscape:cx="225.51709"
+     inkscape:cy="38.313505"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Ebene_1"
+     fit-margin-top="8"
+     fit-margin-left="10"
+     fit-margin-right="10"
+     fit-margin-bottom="5">
+    <inkscape:grid
+       type="xygrid"
+       id="grid3986"
+       empspacing="5"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true"
+       originx="10.480076"
+       originy="-1.7842588"
+       spacingx="1.0666667"
+       spacingy="1.0666666" />
+  </sodipodi:namedview>
+  <defs
+     id="defs3">
+    <style
+       id="style5">.cls-1{fill:#0093dd;}.cls-2{fill:#fff;}.cls-3{fill:#3d3c3b;}</style>
+  </defs>
+  <title
+     id="title7">GnuPG finnished Logo</title>
+  <g
+     id="g3988"
+     transform="matrix(0.91307227,0,0,0.91307227,-98.761644,-486.00468)">
+    <path
+       sodipodi:nodetypes="ccsccccscccccccc"
+       inkscape:connector-curvature="0"
+       d="m 219.06573,610.32168 v -27.55781 c 0,0 -0.0657,-42.00385 -45.03338,-41.72682 -46.03231,0.28359 -45.90782,41.66517 -45.90782,41.66517 v 27.5609 l 20.69495,0.0729 v -27.61756 c 0,0 0.18051,-20.72669 24.77565,-20.84069 25.40488,-0.11775 25.21287,20.69495 25.21287,20.69495 v 27.74898 z m -99.93633,-9.1e-4 h 108.01344 v 74.50904 H 119.1294 Z"
+       style="fill:#0093dd;fill-opacity:1;stroke:none"
+       id="path3959" />
+    <path
+       sodipodi:nodetypes="cscsc"
+       inkscape:connector-curvature="0"
+       id="path3972"
+       d="m 134.33927,577.76626 c 0,0 5.22919,-13.51262 17.80414,-22.23599 7.95434,-5.518 24.53006,-10.50615 40.00865,-4.04256 0,0 -18.24702,-14.16427 -40.61251,-0.3954 -7.40318,4.55762 -14.18074,12.18623 -17.20028,26.67395 z"
+       style="fill:#ffffff;fill-opacity:1;stroke:none" />
+    <path
+       sodipodi:nodetypes="cscccccccsccc"
+       inkscape:connector-curvature="0"
+       id="path3984"
+       d="m 119.11614,649.26174 c 0,0 13.54411,-23.50192 49.66179,-24.13323 33.83211,-0.59136 50.2841,-14.81406 50.2841,-14.81406 h 8.08565 v 9.56745 c 0,0 -23.96751,26.23304 -57.19603,25.3586 34.68591,5.82957 56.83826,-14.28242 56.83826,-14.28242 0,0 -8.49322,33.51999 -72.32695,32.64555 37.30921,9.32731 60.07705,-5.2466 60.07705,-5.2466 0,0 -8.38334,22.09863 -53.56148,21.80141 -22.15235,-0.14574 -23.75548,4.67387 -23.75548,4.67387 l -18.09323,10e-4 z"
+       style="fill:#ffffff;fill-opacity:1;stroke:none" />
+  </g>
+</svg>
