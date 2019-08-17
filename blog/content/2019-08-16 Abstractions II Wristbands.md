@@ -3,6 +3,12 @@ Date: 2019-08-16
 Tags: coding, travel
 Category: travel
 
+Update 2019-08-17: the Abstractions conference organizers have
+[changed the wristband
+policy](https://twitter.com/abstractionscon/status/1162763702627655680).
+
+---
+
 Currently, the [Abstractions II](https://abstractions.io/) conference, which
 starts next week, requires all attendees to wear a wristband with an RFID tag
 in it for the duration of the conference, including in bed and in the bathroom.
