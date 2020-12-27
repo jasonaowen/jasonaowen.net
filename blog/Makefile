@@ -12,14 +12,17 @@ FTP_HOST=localhost
 FTP_USER=anonymous
 FTP_TARGET_DIR=/
 
-SSH_HOST=jasonaowen.net
+SSH_HOST=hostname
 SSH_PORT=22
-SSH_USER=owenja
-SSH_TARGET_DIR=/srv/www/blog
+SSH_USER=username
+SSH_TARGET_DIR=/tmp/
 
 S3_BUCKET=my_s3_bucket
 
 DROPBOX_DIR=~/Dropbox/Public/
+
+B2_BUCKET=jasonaowen-net
+B2_TARGET_DIR=blog/
 
 help:
 	@echo 'Makefile for a pelican Web site                                        '
@@ -37,6 +40,7 @@ help:
 	@echo '   dropbox_upload                   upload the web site via Dropbox    '
 	@echo '   ftp_upload                       upload the web site via FTP        '
 	@echo '   s3_upload                        upload the web site via S3         '
+	@echo '   b2_upload                        upload the web site via B2         '
 	@echo '   github                           upload the web site via gh-pages   '
 	@echo '                                                                       '
 
@@ -80,6 +84,9 @@ ftp_upload: publish
 
 s3_upload: publish
 	s3cmd sync $(OUTPUTDIR)/ s3://$(S3_BUCKET) --acl-public --delete-removed
+
+b2_upload: publish
+	b2 sync $(OUTPUTDIR)/ b2://$(B2_BUCKET)/$(B2_TARGET_DIR) --delete
 
 github: publish
 	ghp-import $(OUTPUTDIR)
